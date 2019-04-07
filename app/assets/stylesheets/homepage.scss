@@ -2,14 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
+ody {
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
-}
-
-.home {
-	background-image: linear-gradient(#a5d462, #88ae51);
-	height: 100vh;
 }
 
 .nav ul {
@@ -33,12 +28,36 @@ body {
 	color: white;
 }
 
-.concept {
+.home {
+	background-image: linear-gradient(#a5d462, #88ae51);
+	height: 100vh;
+}
+
+.about {
+	background: white;
+	height: 100vh;
+}
+
+.about-txt {
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: normal;
+	text-align: center;
+
+	color: #000000;
+}
+
+.art {
 	background: white;
 	height: 100vh;
 }
 
 .team {
-	background-image: linear-gradient(#88ae51, #5c7637);
+	background-image: linear-gradient(#5c7637, #49751a);
 	height: 100vh;
 }
